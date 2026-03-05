@@ -1,0 +1,34 @@
+# VCS
+.git
+.gitignore
+
+# Python
+**/.venv
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.pytest_cache
+.mypy_cache
+
+# Node
+**/node_modules
+**/dist
+
+# Local runtime/config
+**/.env
+**/.DS_Store
+**/*.log
+
+# ORISIGHT runtime artifacts (mounted as volumes at runtime)
+backend/data/uploads
+backend/data/heatmaps
+backend/data/cases
+backend/data/raw_docs
+backend/data/lesion_seed
+backend/vector_db/medical_docs
+backend/vector_db/lesion_images
+
+# Keep directory placeholders
+!backend/data/**/.gitkeep
+!backend/vector_db/**/.gitkeep

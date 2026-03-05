@@ -1,0 +1,53 @@
+{
+  "case_id": "b4ded4d5-2a16-4aef-94f1-5f45b471f4d9",
+  "created_at": "2026-03-05T17:15:01.073036",
+  "symptoms": "Burning sensation with persistent white patch and restricted mouth opening",
+  "history": "Areca nut chewing daily, tobacco chewing for 10 years, occasional alcohol",
+  "image_path": "/app/backend/data/uploads/b4ded4d5-2a16-4aef-94f1-5f45b471f4d9.jpg",
+  "report": {
+    "case_id": "b4ded4d5-2a16-4aef-94f1-5f45b471f4d9",
+    "output": {
+      "diagnosis": "Oral potentially malignant disorder (OPMD)",
+      "differential_diagnosis": [
+        "Oral submucous fibrosis",
+        "Leukoplakia",
+        "Erythroplakia",
+        "Oral lichen planus",
+        "Candidiasis"
+      ],
+      "risk_level": "High",
+      "suggested_tests": [
+        "Biopsy with histopathological examination",
+        "Oral brush cytology",
+        "Toluidine blue staining"
+      ],
+      "treatment_plan": [
+        "Cessation of tobacco and areca nut use",
+        "Regular oral hygiene maintenance",
+        "Topical corticosteroids",
+        "Antioxidant supplements",
+        "Regular follow-up with oral medicine specialist"
+      ],
+      "referral": "Oral medicine specialist or oral surgeon",
+      "confidence_score": "Moderate"
+    },
+    "explainability": {
+      "image_caption": "Oral cavity photo with reddish mucosal region, well lit, possible patch-like lesion visible.",
+      "risk_factors": [
+        "tobacco chewing",
+        "areca nut consumption",
+        "alcohol use",
+        "burning sensation",
+        "restricted mouth opening",
+        "persistent white or red patches"
+      ],
+      "similar_cases": [],
+      "retrieved_knowledge": [],
+      "image_url": "http://127.0.0.1:8001/static/uploads/b4ded4d5-2a16-4aef-94f1-5f45b471f4d9.jpg",
+      "heatmap_url": "http://127.0.0.1:8001/static/heatmaps/b4ded4d5-2a16-4aef-94f1-5f45b471f4d9_heatmap.png",
+      "disclaimer": "Hackathon MVP only. Not a medical diagnostic device."
+    },
+    "doctor_mode_enabled": true
+  },
+  "doctor_review": {}
+}

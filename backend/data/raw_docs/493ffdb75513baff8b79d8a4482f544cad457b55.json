@@ -1,0 +1,11 @@
+{
+  "id": "493ffdb75513baff8b79d8a4482f544cad457b55",
+  "source": "PubMed",
+  "title": "Prospective applications of artificial intelligence for the diagnosis of oral leukoplakia: a scoping review.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41777604/",
+  "text": "Oral leukoplakia (OL) is the most prevalent oral potentially malignant disorder worldwide. Its diagnosis is clinical and based on excluding all other white patches of the oral cavity, which can be challenging and time-consuming. In recent years, artificial intelligence (AI) has emerged as a promising tool to overcome these limitations, yet a comprehensive overview of the existing evidence is still lacking. This scoping review surveys the current landscape of artificial intelligence applications for diagnosing oral leukoplakia, both clinically and histopathologically. A comprehensive search was conducted in PubMed, Scopus, Web of Science, and OVID for studies on the use of artificial intelligence for the diagnosis of oral leukoplakia. No date/language restrictions were applied. Two reviewers screened articles and extracted data into predefined tables. Ten studies were included. Early research used spectroscopy-based models, while recent work employed deep learning for clinical and histopathological image analysis. Most models achieved moderate-to-high diagnostic performance, with sensitivity, specificity and accuracy values above 80%. Overall, models allowed differentiating oral leukoplakia from normal oral mucosa, oral squamous cell carcinoma, and proliferative verrucous leukoplakia, with stronger performance in advanced lesions. Furthermore, artificial intelligence showed promise in grading oral epithelial dysplasia severity in histological samples, occasionally outperforming oral pathologists. While current evidence remains preliminary, artificial intelligence shows promise as an adjunct tool for oral leukoplakia diagnosis. However, standardized reporting, inclusion of lesions within datasets, and multicenter validation in large and diverse cohorts are still needed to ensure generalizability and further clinical validation.",
+  "metadata": {
+    "pmid": "41777604",
+    "query": "oral leukoplakia"
+  }
+}

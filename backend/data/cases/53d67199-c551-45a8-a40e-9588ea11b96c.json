@@ -1,0 +1,100 @@
+{
+  "case_id": "53d67199-c551-45a8-a40e-9588ea11b96c",
+  "created_at": "2026-03-05T21:09:41.200436",
+  "symptoms": "Burning sensation in buccal mucosa with persistent white patch for 6 weeks.",
+  "history": "Tobacco chewing for 8 years, areca nut use daily, occasional alcohol.",
+  "image_path": "/app/backend/data/uploads/53d67199-c551-45a8-a40e-9588ea11b96c.jpeg",
+  "report": {
+    "case_id": "53d67199-c551-45a8-a40e-9588ea11b96c",
+    "output": {
+      "diagnosis": "Oral potentially malignant disorder (OPMD)",
+      "differential_diagnosis": [
+        "Oral submucous fibrosis",
+        "Leukoplakia",
+        "Oral squamous cell carcinoma"
+      ],
+      "risk_level": "High",
+      "suggested_tests": [
+        "Biopsy",
+        "Oral brush cytology",
+        "Toluidine blue staining"
+      ],
+      "treatment_plan": [
+        "Cessation of tobacco and areca nut use",
+        "Regular follow-up",
+        "Topical corticosteroids"
+      ],
+      "referral": "Oral medicine specialist or oncologist",
+      "confidence_score": "Moderate"
+    },
+    "explainability": {
+      "image_caption": "Oral cavity photo with reddish mucosal region, dim, possible patch-like lesion visible.",
+      "risk_factors": [
+        "tobacco chewing",
+        "areca nut consumption",
+        "alcohol use",
+        "burning sensation",
+        "persistent white or red patches"
+      ],
+      "similar_cases": [
+        {
+          "case_id": "b07f896b-f98a-48e2-8f00-736fde8f2fdd",
+          "diagnosis": "Oral potentially malignant disorder (OPMD)",
+          "similarity": 1.0,
+          "metadata": {
+            "source": "orisight_generated_case",
+            "diagnosis": "Oral potentially malignant disorder (OPMD)",
+            "risk_level": "High"
+          }
+        },
+        {
+          "case_id": "ce399d69-403a-4aa6-9ff9-a9b86f3ac823",
+          "diagnosis": "Oral potentially malignant disorder (OPMD)",
+          "similarity": 1.0,
+          "metadata": {
+            "risk_level": "High",
+            "diagnosis": "Oral potentially malignant disorder (OPMD)",
+            "source": "orisight_generated_case"
+          }
+        },
+        {
+          "case_id": "f9901d0f-99ce-4e52-96fa-0522b7ba108f",
+          "diagnosis": "Oral potentially malignant disorder (OPMD)",
+          "similarity": 1.0,
+          "metadata": {
+            "diagnosis": "Oral potentially malignant disorder (OPMD)",
+            "source": "orisight_generated_case",
+            "risk_level": "High"
+          }
+        }
+      ],
+      "retrieved_knowledge": [
+        {
+          "source": "NCBI",
+          "chunk": "disorders. 8 Children with primary hypertension are more likely than normotensive children to develop hypertension in adulthood. 9 \u2013 12 They are also more likely to develop intermediate cardiovascular outcomes, such as as increased left ventricular mass, carotid intima-media thickness (CIMT), and increased pulse wave velocity. 9 The association between intermediate outcomes in childhood and health outcomes in adulthood, however, is unclear. These risks are discussed in greater detail below in Key Question (KQ) 4 and Contextual Question (CQ) 3 ( Appendix A ). Untreated secondary hypertension can lead to similar sequelae as those of primary hypertension. In addition, untreated underlying secondary causes of hypertension can lead to serious sequelae related to their etiologies. For example, untreated renal artery stenosis, a leading cause of secondary hypertension, can lead to renal failure. The overall reported prevalence of hypertension (both primary and secondary) in children and adolescents ranges in studies from 0.54 percent to 29 percent, with most studies reporting between 3 percent to 4 percent of children having hypertension. 13 \u2013 17 These data come from observational studies from a variety of settings, including a primary care network, insurance program, health care system, and schools. Prevalence is higher in children and adolescents who are overweight and obese. Prevalence is also higher in African American and Hispanic children compared with non-Hispanic white children. One small study suggests that approximately half of children with hypertension have primary hypertension; children age 13 years or older are more likely to have primary hypertension (60%), while those under age 6 years are less likely to have primary hypertension (17%). 18 Greater detail is provided in Appendix A . The prevalence cited above may underestimate the actual prevalence for children age 13 years or older because it is based on studies conducted before the adoption of uniform definitions in 2017. The thresholds for high blood pressure with the new uniform definitions are lower than the previous thresholds, which were placed at the 95th percentile for children of a given age, height, and sex. However, the new 2017 uniform definitions result in thresholds that are slightly higher than measurements at the 95th percentile for younger adolescents of a given age and sex at lower heights. Children with family histories of hypertension are 2 to 3 times as likely to develop primary hypertension. 19 , 20 Children with specific chronic conditions are also at higher risk of developing hypertension. Obesity is a common comorbid condition with hypertension in children, with prevalence rates estimated between 3.8 percent and 20.2 percent in children with obesity (body mass index greater [BMI] greater than 95th percentile for age and sex). 21 \u2013 24 Children with a BMI at the 95th to 98th percentile are 2 times as likely to develop hypertension as their normal-weight peers. 25 Rates of hypertension increase in relationship to increasing BMI. 21 \u2013 24 , 26 Children with sleep-disordered breathing (including snoring, sleep fragmentation, and obstructive sleep apnea) are approximately 3 times as likely to develop hypertension, and a",
+          "score": 0.387
+        },
+        {
+          "source": "Dataset Metadata",
+          "chunk": "Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript. Advertisement Scientific Data volume 11 , Article number: 1298 ( 2024 ) Cite this article 3931 Accesses 3 Citations Metrics details In imaging spectroscopy, gathering oral tissue spectral data from resected samples may not accurately represent tissue signatures due to time-dependent changes, blood loss, protein degeneration, and preservation chemicals. In-vivo spectral imaging is employed to address these limitations, but it poses challenges like device dimensions, tissue accessibility, and motion artifacts, impacting data quality and reliability. Our study publishes a dataset of spectral images focusing on oral diseases, addressing these challenges. We used a state-of-the-art multispectral camera, capturing images at 270*510 pixels resolution in 16 spectral bands (460 nm to 600 nm). The dataset includes 91 participants (15 healthy and 76 diseased), with multiple images per patient, totalling 243 spectral images. The dataset encompasses three oral health conditions: Oral Submucous Fibrosis (OSMF), Leukoplakia, and Oral Squamous Cell Carcinoma (OSCC). Detailed patient history records accompany each case. This publicly available oral health multispectral dataset has the potential to advance spectroscopy diagnosis. Integrating artificial intelligence with a comprehensive spectral signature repository holds promise for accurate disease analysis. Oral cancer is a significant health challenge globally, especially in India, where it has a high incidence rate among males, as reported by the National Cancer Registry of India 1 . Risk factors include tobacco and alcohol use, betel nut chewing, infections with human papillomavirus (HPV), and poor oral hygiene 2 , 3 , 4 , 5 , 6 , 7 , 8 . Oral cancer significantly burdens individuals and society, impacting mortality, morbidity, quality of life, and emotional well-being. Treatment is often initiated based on visual suspicion, typically when the lesion has grown significantly, followed by a biopsy for confirmation. However, at this stage, the disease has usually progressed to a critical point and spread, significantly impacting survival prospects 9 , 10 . Prioritizing prevention, efforts encompass oral hygiene, tobacco cessation, and HPV vaccination. Alongside this, the significance of early detection through regular screenings cannot be overstated. This emphasis on early detection aligns with the strides in oral cancer diagnosis powered by advanced technologies like VELscope 11 , 12 and OralCDx 13 coupled with molecular biomarkers. While VELscope aids in enhanced visualization under fluorescent light, its capability to precisely differentiate between benign and malignant conditions is restricted 14 , 15 . Moreover, the suspected region often appears greenish-brown due to reduced fluorescence from its surroundings, impeding the physician\u2019s ability to obtain a clearer view 16 . OralCDx, a less utilized technique globally, serves as a non-invasive biopsy option for detecting potentially cancerous or precancerous cells. However, its diagnostic scope is limited, lacking a definitive prognosis in certain cases 17 .",
+          "score": 0.3534
+        },
+        {
+          "source": "PubMed",
+          "chunk": "Oral tongue squamous cell carcinoma (OTSCC) is an aggressive malignancy with poor prognosis, necessitating reliable biomarkers. Genes with significantly higher expression in OTSCC tumor tissues compared to normal tongue tissues were identified via integrated transcriptomic analysis of seven GEO datasets. To assess their diagnostic and prognostic potential, these genes were further characterized using multi-omic and clinical data from the TCGA-OTSCC and CPTAC-OTSCC cohorts. A total of 1,117 genes were found to be upregulated in OTSCC tissues, among which only CCNA2 (Cyclin A2) was significantly associated with both reduced overall survival (OS) and disease-free survival (DFS) in the TCGA-OTSCC cohort (n=128), based on Cox proportional hazards regression and Kaplan-Meier analyses. CCNA2 showed moderate prognostic performance (AUC=0.63 for OS; AUC=0.65 for DFS) and was significantly upregulated in higher-grade tumors (p=0.01) and in deceased patients (p=0.03). No somatic mutations or promoter methylation alterations were observed in CCNA2 based on TCGA data. In CPTAC-OTSCC samples (n=18), CCNA2 protein expression was significantly higher in tumor tissues than in non-tumoral tissues (p <0.0001), with a positive correlation between mRNA and protein levels (r=0.56, p=0.01). Both mRNA and protein forms showed strong diagnostic performance (AUC=0.92 and AUC=0.82, respectively), consistent with observations across multiple tumor types. While CCNA2 protein levels showed prognostic relevance for OS (AUC=0.69, p=0.01), the mRNA-based prediction did not reach statistical significance (AUC=0.63, p=0.36). Functional enrichment analysis of CCNA2 co-expressed genes predicted involvement in cell cycle, mismatch repair, and DNA replication pathways. Additionally, protein-protein interaction analysis positioned CCNA2 as a central hub, suggesting its potential role in OTSCC pathogenesis. These findings indicate that CCNA2 is a promising diagnostic and prognostic biomarker candidate in OTSCC. Given the small size of the CPTAC validation cohort, further studies in larger, independent OTSCC cohorts are warranted to confirm its clinical utility.",
+          "score": 0.3363
+        },
+        {
+          "source": "NCBI",
+          "chunk": "are 2 times as likely to develop hypertension as their normal-weight peers. 25 Rates of hypertension increase in relationship to increasing BMI. 21 \u2013 24 , 26 Children with sleep-disordered breathing (including snoring, sleep fragmentation, and obstructive sleep apnea) are approximately 3 times as likely to develop hypertension, and a higher severity correlates with higher risk. 9 , 27 , 28 Children born prematurely or with low birth weight also have a higher prevalence of hypertension (7.3%) than their term and normal birth weight peers. 29 \u2013 33 Chronic kidney disease is the most common cause of secondary hypertension, and it increases the risk of hypertension considerably. Approximately half of children and adolescents with chronic kidney disease are hypertensive, and the proportion is higher for those with end-stage kidney disease. Between 34 percent and 79 percent of patients with secondary hypertension have a structural renal abnormality, while 12 percent to 13 percent have renovascular disease. 31 , 34 , 35 Nearly 20 percent of pediatric hypertension may be attributable to chronic kidney disease. 36 Infants and young children with hypertension are more likely to have an underlying renal etiology, while adolescents with hypertension are more likely to have primary hypertension. Some studies have found that children with hypertension have early signs of intermediate cardiac outcomes that have been shown to predict cardiovascular events in adults, such as increased left ventricular mass, CIMT, and pulse wave velocity. 37 \u2013 39 Screening for hypertension in childhood may lead to earlier treatment, therefore reducing the risk of adult hypertension as well as cardiovascular complications resulting from hypertension. In addition, given higher rates of secondary hypertension in children than in adults, screening for hypertension in childhood may lead to diagnosis of underlying etiologies that are amenable to treatment, thus preventing nonhypertensive sequelae related to those etiologies. For the purposes of this report, screening for hypertension involves measuring blood pressure using an oscillometric (automated) or auscultatory (manual) method and is conducted by a qualified health care professional. Diagnosis of hypertension requires confirmation of elevated blood pressure above diagnostic thresholds on three separate occasions by qualified health care professionals because blood pressure can be temporarily elevated at any given time by inappropriate cuff size, patient nervousness (\u201cwhite coat hypertension\u201d), recent physical activity, recent medications, or pain. To establish a diagnosis, blood pressure should be measured using auscultation because blood pressure norms are based on auscultatory measurement, and oscillometric devices overestimate both SBP and diastolic blood pressure (DBP). 8 , 40 Treatments for hypertension in children and adolescents vary depending on severity, associated symptomatology, and comorbidities. It is unknown whether treatment efficacy or harms vary by age. Lifestyle changes, including dietary and physical activity changes, may be effective for patients with asymptomatic, less severe hypertension without evidence of comorbidities (such as diabetes or chronic kidney disease). Studies have supported the effectiveness of the Dietary Approaches to Stop Hypertension (DASH), which emphasizes high intake of fruits, vegetables, whole grains, and lean meats, in addition to low sodium and",
+          "score": 0.3358
+        }
+      ],
+      "image_url": "http://localhost:8000/static/uploads/53d67199-c551-45a8-a40e-9588ea11b96c.jpeg",
+      "heatmap_url": "http://localhost:8000/static/heatmaps/53d67199-c551-45a8-a40e-9588ea11b96c_heatmap.png",
+      "disclaimer": "Hackathon MVP only. Not a medical diagnostic device."
+    },
+    "doctor_mode_enabled": true
+  },
+  "doctor_review": {}
+}

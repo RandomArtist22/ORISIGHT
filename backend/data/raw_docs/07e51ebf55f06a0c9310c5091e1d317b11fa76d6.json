@@ -1,0 +1,10 @@
+{
+  "id": "07e51ebf55f06a0c9310c5091e1d317b11fa76d6",
+  "source": "Dataset Metadata",
+  "title": "Oral Images Dataset - Mendeley Data",
+  "url": "https://data.mendeley.com/datasets/mhjyrn35p4",
+  "text": "The dataset includes color images of oral lesions captured using mobile cameras and intraoral cameras. These images can be used for identifying potential oral malignancies by image analysis. These images have been collected in consultation with doctors from different hospitals and colleges in Karnataka, India. This dataset contains two folders - original_data and augmented_data. The first folder contains images of 165 benign lesions and 158 malignant lesions. The second folder contains images created by augmenting the original images. The augmentation techniques used are flipping, rotation and resizing.",
+  "metadata": {
+    "type": "dataset_metadata"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "case_id": "6a3eb967-7286-4620-9051-81599551ab72",
+  "created_at": "2026-03-05T17:41:07.281948",
+  "symptoms": "Burning sensation with persistent white patch and restricted mouth opening",
+  "history": "Areca nut chewing daily, tobacco chewing for 10 years, occasional alcohol",
+  "image_path": "/app/backend/data/uploads/6a3eb967-7286-4620-9051-81599551ab72.jpg",
+  "report": {
+    "case_id": "6a3eb967-7286-4620-9051-81599551ab72",
+    "output": {
+      "diagnosis": "Oral potentially malignant disorder (OPMD)",
+      "differential_diagnosis": [
+        "Oral submucous fibrosis",
+        "Leukoplakia",
+        "Oral squamous cell carcinoma"
+      ],
+      "risk_level": "High",
+      "suggested_tests": [
+        "Biopsy",
+        "Oral brush cytology",
+        "Imaging (CT/MRI)"
+      ],
+      "treatment_plan": [
+        "Cessation of tobacco and areca nut use",
+        "Regular follow-up with oral examination",
+        "Referral to oral medicine specialist"
+      ],
+      "referral": "Oral medicine specialist",
+      "confidence_score": "Moderate"
+    },
+    "explainability": {
+      "image_caption": "Oral cavity photo with reddish mucosal region, well lit, possible patch-like lesion visible.",
+      "risk_factors": [
+        "tobacco chewing",
+        "areca nut consumption",
+        "alcohol use",
+        "burning sensation",
+        "restricted mouth opening",
+        "persistent white or red patches"
+      ],
+      "similar_cases": [
+        {
+          "case_id": "b4ded4d5-2a16-4aef-94f1-5f45b471f4d9",
+          "diagnosis": "Oral potentially malignant disorder (OPMD)",
+          "similarity": 1.0,
+          "metadata": {
+            "source": "orisight_generated_case",
+            "risk_level": "High",
+            "diagnosis": "Oral potentially malignant disorder (OPMD)"
+          }
+        },
+        {
+          "case_id": "0d2c1784-dd17-4a8d-be1f-f766e712b621",
+          "diagnosis": "Oral potentially malignant disorder (OPMD)",
+          "similarity": 1.0,
+          "metadata": {
+            "diagnosis": "Oral potentially malignant disorder (OPMD)",
+            "source": "orisight_generated_case",
+            "risk_level": "High"
+          }
+        },
+        {
+          "case_id": "9e87af54-398e-4d4e-bf6a-48c195f2cd07",
+          "diagnosis": "Oral potentially malignant disorder (OPMD)",
+          "similarity": 1.0,
+          "metadata": {
+            "diagnosis": "Oral potentially malignant disorder (OPMD)",
+            "risk_level": "High",
+            "source": "orisight_generated_case"
+          }
+        }
+      ],
+      "retrieved_knowledge": [
+        {
+          "source": "Oral Cancer Foundation",
+          "chunk": "Home \u00bb Dental \u00bb Oral Cancer Images This collection of photos contains both cancer and non-cancerous diseases of the oral environment which may be mistaken for malignancies. Some contain a brief patient history which may add insight to the actual diagnosis of the disease. As you review these images and their descriptions, you will be presented with what the referring doctor originally diagnosed and treated the patient for. An elderly woman with advanced sun-induced degenerative alterations of face and lips. Presented with midline ulcerated mass. 64-year-old male with a long history of cigarette smoking presents with an asymmetrical nodular mass in the retromolar region. A 47-year-old male presents with a tender, well-defined ulceration of the left ventral tongue of 2 weeks duration. A 59-year-old female with a painless papillary mass of the left posterior mandibular alveolar ridge. A 38-year-old a male presented with a white friable lesion of the maxillary gingiva which wiped off with a cotton swab, leaving a raw red base. A 31 year old female noticed a flat grey/black asymptomatic alteration in the anterior floor of her mouth, of unknown duration. The patient is a 64-year-old male with granular nodular partially ulcerated mass of the anterior mandibular gingiva. A bilaterally symmetrical ulcerative process noted by this 41-year-old female, present for several months. The patient is a non-smoker and uses no alcohol. Red and white surface alteration which is centrally indurated/firm was noted on routine examination in this 70-year-old male. The patient has a long time history of tobacco and alcohol abuse. On a routine examination of a 52-year-old female a well defined red velvety lesion of the lower-left ventral tongue was observed. Slightly elevated crater form and firm asymmetrical lesion were found on routine oral examination of the left lateral soft palette. A 69-year female presented with a sharply defined palatal ulceration. A 48-year-old female presents with a hard gingival swelling that on X-ray consisted of dense bone which was contiguous with the cortex. An 8-year-old child evaluated for the superficial, ulcerated, irregular lesion. The patient has a white lesion with irregular margins on the left ventral tongue. At the inferior aspect, there is a prominent red patch of tissue. Blood-based, firm, asymptomatic nodule of long duration was noted along the right buccal mucosa during routine examination. This 46-year-old female presents with irregular ulceration of the ventral lateral tongue, which is surrounded by leukoplakia. A flat, painless lesion of the mid-third of the tongue, showed sharply defined borders. This lesion was noted subsequent to a long course of antibiotic therapy. A 55-year-old male noted loosening of the lower incisors. On exam, a granular to warty mass was noted on the gingiva extending into the labial fold. An elongated, heterogeneous, red, well-defined ulceration was observed on the left lateral aspect of the tongue of a 48-year-old male. In this patient, the anterior floor of the mouth, bilateral to the midline, demonstrated a vaguely marginated lesion, which was firm on palpation. In this patient, the buccal mucosa bilaterally showed",
+          "score": 0.5908
+        },
+        {
+          "source": "Oral Cancer Foundation",
+          "chunk": "elongated, heterogeneous, red, well-defined ulceration was observed on the left lateral aspect of the tongue of a 48-year-old male. In this patient, the anterior floor of the mouth, bilateral to the midline, demonstrated a vaguely marginated lesion, which was firm on palpation. In this patient, the buccal mucosa bilaterally showed red and white surface changes, with delicate keratotic striae enclosing a thin, but intact red area. This ulceration of the buccal mucosa was noticed during a routine oral examination after a dental extraction. The right lateral tongue of this patient demonstrated the presence of an indurated, painless ulcer of unknown duration. A 78-year-old female was evaluated for multiple macular pigmented lesions of the floor of the mouth and attached gingiva. A densely papillary, white, exothitic mass with posterior ulceration was noted on the mandibular gingiva of this 72 year old male with a 55 pack/year history of cigarette smoking and heavy alcohol consumption. A 68 year old female presented with a slightly white nodular alteration of the retromolar region. A bluish-red nodular mass was detected in the maxillary right quadrant of this 54 year old male. A 78 year old woman with a long history of tobacco and alcohol abuse, has difficulty opening her mouth. Examination revealed a foul smelling lesion extending superiorly and to the posterior. Read more on Oral Cancer. How you get it, how you treat and more. Get the latest news and updates from the The Oral Cancer Foundation directly to your inbox. Area of Interest Please select all that apply \u00a9 2026 \u2013 The Oral Cancer Foundation \u2013 Head & Neck Cancer IRS 501(c)3 Charity \u2013 2044 Placita de Quedo Santa Fe, NM 87505 | Disclaimer / Privacy Policy",
+          "score": 0.5705
+        },
+        {
+          "source": "WHO",
+          "chunk": "to women and it varies strongly by socio-economic circumstances. Tobacco, alcohol and areca nut (betel quid) use are among the leading causes of oral cancer. In North America and Europe, human papillomavirus infections are responsible for a growing percentage of oral cancers among young people. Oro-dental trauma results from injury to the teeth, mouth and oral cavity. Latest estimates show that 1 billion people are affected, with a prevalence of around 20% for children up to 12 years old. Oro-dental trauma can be caused by oral factors such as lack of alignment of teeth and environmental factors (such as unsafe playgrounds, risk-taking behaviour, road accidents and violence). Treatment is costly and lengthy and sometimes can even lead to tooth loss, resulting in complications for facial and psychological development and quality of life. Noma is a severe gangrenous disease of the mouth and the face. It mostly affects children aged 2\u20136 years suffering from malnutrition, affected by infectious disease, living in extreme poverty with poor oral hygiene or with weakened immune systems. Noma is mostly found in sub-Saharan Africa, although cases have also been reported in Latin America and Asia. Noma starts as a soft tissue lesion (a sore) of the gums. It then develops into an acute necrotizing gingivitis that progresses rapidly, destroying the soft tissues and further progressing to involve the hard tissues and skin of the face. According to latest estimates (from 1998) there are 140 000 new cases of noma annually. Without treatment, noma is fatal in 90% of cases. Survivors suffer from severe facial disfigurement, have difficulty speaking and eating, endure social stigma, and require complex surgery and rehabilitation. Where noma is detected at an early stage, its progression can be rapidly halted through basic hygiene, antibiotics and improved nutrition. Orofacial clefts, the most common of craniofacial birth defects, have a global prevalence of between 1 in 1000\u20131500 births, with wide variation in different studies and populations (2) . Genetic predisposition is a major cause. However, poor maternal nutrition, tobacco consumption, alcohol and obesity during pregnancy also play a role. In low-income settings, there is a high mortality rate in the neonatal period. If lip and palate clefts are properly treated by surgery, complete rehabilitation is possible. Most oral diseases and conditions share modifiable risk factors such as tobacco use, alcohol consumption and an unhealthy diet high in free sugars that are common to other NCDs including cardiovascular disease, cancer, chronic respiratory disease and diabetes. In addition, diabetes has been linked in a reciprocal way with the development and progression of periodontal disease. There is also a causal link between the high consumption of sugar and diabetes, obesity and dental caries. Oral diseases disproportionately affect the poor and socially disadvantaged members of society. There is a very strong and consistent association between socioeconomic status (income, occupation and educational level) and the prevalence and severity of oral diseases. This association exists from early childhood to older age and across populations in high-, middle- and low-income countries. The",
+          "score": 0.5559
+        },
+        {
+          "source": "Dataset Metadata",
+          "chunk": "cancer-causing substances, playing a pivotal role as a baseline for research and medical assessments. The second class involves Smokers, providing valuable insights into the oral health effects of smoking, excluding the use of smokeless tobacco. The third class, Oral Submucous Fibrosis (OSMF), represents a precancerous condition associated with progressive fibrosis linked to habitual betel nut and tobacco consumption. OSMF is particularly challenging to detect as no visual changes are apparent; instead, the affected area becomes rigid, leading to trismus, often occurring in the buccal mucosa. Leukoplakia, the fourth class, manifests as white patches on the oral mucosa, indicating potential precancerous changes. Finally, the fifth class, Oral Squamous Cell Carcinoma (OSCC), denotes an advanced stage of oral cancer originating from squamous cells, presenting significant health risks. From each pixel point in the image data cube, a spectral signature is extracted along its z-axis. This offers insights into the pixel\u2019s spectral properties. Moreover, the mean spectrum for a chosen ROI is computed by summing the spectra of all pixels within the ROI and then dividing it by the number of pixels in that region. This approach allows for a focused examination of spectral characteristics within the identified region of interest. In Fig. 3 sample images representing each class are displayed. For each class datacube, the RGB image along with the corresponding mask is shown. Additionally, the generated mean spectrum is presented specifically for the regions of interest (ROIs) identified in the mask. This allows for comprehensive visualization of the spectral characteristics within the ROI. The figure presents a sample spectral datacube demonstrating the five distinct groups: Healthy (control), Smoker, Oral Submucous Fibrosis (OSMF), and Leukoplakia, and Oral Squamous Cell Carcinoma (OSCC). Each column represents the RGB image, Mask, and normalized spectrum computed for the datacube. The datacube is represented with 521 nm wavelength image for visualization purposes. The dataset is available at Dyrad 36 . Table 1 provides a comprehensive overview of participant demographics, including mean age, gender distribution, and tobacco use history. The dataset, comprising 243 spectral data cubes, was meticulously collected from 91 participants. These data cubes represent various oral cavity sites, as detailed in Table 2 , including the buccal mucosa, labial mucosa, gingiva, tongue, and palate. The dataset spans diverse oral tissue conditions such as Oral Submucous Fibrosis (OSMF), Oral Squamous Cell Carcinoma (OSCC), and Leukoplakia. In addition to pathological conditions, it includes healthy (control) data from participants without oral lesions, as well as data from smokers without lesions. Figure 4 provides a glimpse of these oral conditions, showcasing their respective reconstructed RGB images and spectral signatures. 16 spectral images belonging to five different classes, and each image is displayed with respective image ID. All the images displayed have been processed to eliminate any dark noise. Within the primary MODID folder, four subfolders organize the dataset: unprocessed data, processed data, RGB, and mask. The unprocessed data folder contains raw sensor data at a resolution of 2048 * 1088 pixels, accompanied by a crucial context file. This context file",
+          "score": 0.5015
+        }
+      ],
+      "image_url": "http://127.0.0.1:8001/static/uploads/6a3eb967-7286-4620-9051-81599551ab72.jpg",
+      "heatmap_url": "http://127.0.0.1:8001/static/heatmaps/6a3eb967-7286-4620-9051-81599551ab72_heatmap.png",
+      "disclaimer": "Hackathon MVP only. Not a medical diagnostic device."
+    },
+    "doctor_mode_enabled": true
+  },
+  "doctor_review": {}
+}

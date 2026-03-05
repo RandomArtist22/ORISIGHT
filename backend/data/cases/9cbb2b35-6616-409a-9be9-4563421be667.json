@@ -1,0 +1,70 @@
+{
+  "case_id": "9cbb2b35-6616-409a-9be9-4563421be667",
+  "created_at": "2026-03-05T17:23:57.144785",
+  "symptoms": "Burning sensation with persistent white patch and restricted mouth opening",
+  "history": "Areca nut chewing daily, tobacco chewing for 10 years, occasional alcohol",
+  "image_path": "/app/backend/data/uploads/9cbb2b35-6616-409a-9be9-4563421be667.jpg",
+  "report": {
+    "case_id": "9cbb2b35-6616-409a-9be9-4563421be667",
+    "output": {
+      "diagnosis": "Oral potentially malignant disorder (OPMD)",
+      "differential_diagnosis": [
+        "Oral lichen planus",
+        "Leukoplakia",
+        "Erythroplakia"
+      ],
+      "risk_level": "High",
+      "suggested_tests": [
+        "Biopsy",
+        "Oral brush cytology",
+        "Toluidine blue staining"
+      ],
+      "treatment_plan": [
+        "Cessation of tobacco and areca nut use",
+        "Regular follow-up",
+        "Topical corticosteroids"
+      ],
+      "referral": "Oral medicine specialist or oral surgeon",
+      "confidence_score": "Moderate"
+    },
+    "explainability": {
+      "image_caption": "Oral cavity photo with reddish mucosal region, well lit, possible patch-like lesion visible.",
+      "risk_factors": [
+        "tobacco chewing",
+        "areca nut consumption",
+        "alcohol use",
+        "burning sensation",
+        "restricted mouth opening",
+        "persistent white or red patches"
+      ],
+      "similar_cases": [
+        {
+          "case_id": "b4ded4d5-2a16-4aef-94f1-5f45b471f4d9",
+          "diagnosis": "Oral potentially malignant disorder (OPMD)",
+          "similarity": 1.0,
+          "metadata": {
+            "risk_level": "High",
+            "source": "orisight_generated_case",
+            "diagnosis": "Oral potentially malignant disorder (OPMD)"
+          }
+        },
+        {
+          "case_id": "0d2c1784-dd17-4a8d-be1f-f766e712b621",
+          "diagnosis": "Oral potentially malignant disorder (OPMD)",
+          "similarity": 1.0,
+          "metadata": {
+            "risk_level": "High",
+            "diagnosis": "Oral potentially malignant disorder (OPMD)",
+            "source": "orisight_generated_case"
+          }
+        }
+      ],
+      "retrieved_knowledge": [],
+      "image_url": "http://127.0.0.1:8001/static/uploads/9cbb2b35-6616-409a-9be9-4563421be667.jpg",
+      "heatmap_url": "http://127.0.0.1:8001/static/heatmaps/9cbb2b35-6616-409a-9be9-4563421be667_heatmap.png",
+      "disclaimer": "Hackathon MVP only. Not a medical diagnostic device."
+    },
+    "doctor_mode_enabled": true
+  },
+  "doctor_review": {}
+}

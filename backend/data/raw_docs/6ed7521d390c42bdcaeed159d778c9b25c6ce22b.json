@@ -1,0 +1,11 @@
+{
+  "id": "6ed7521d390c42bdcaeed159d778c9b25c6ce22b",
+  "source": "PubMed",
+  "title": "Role of Stem Cells and Stem Cell Markers in Oral Potentially Malignant Disorders and Malignant Transformation: A Systematic Review.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41778103/",
+  "text": "Oral potentially malignant disorders (OPMDs) have varying risk of malignant transformation (MT), yet the underlying mechanisms remain unclear. Recent evidence suggest emerging role of stem cells in carcinogenesis. This systematic review aimed to synthesizes current knowledge on the role of stem cells in OPMD and MT. Review protocol was developed in accordance with PRISMA 2020 guidelines and registered with PROSPERO. Literature searches identified 4882 records from PubMed, Scopus, Embase, and Web of Science databases; from these, n = 97 primary research studies were selected via two stage screening. Data extraction and narrative synthesis was conducted according to synthesis without meta-analysis (SWiM) guidelines. Methodological quality was assessed using Joanna Briggs Institute (JBI) critical appraisal checklists. Studies included in this review were published between 2006-2025, where majority of the research were from India and China. Immunohistochemistry (IHC) was used to identify stem cell biomarkers in tissue samples, most studies demonstrated that higher expression of stem cell markers (CD44, ALDH1, HELLS, TARIF, SOX2, NANOG, and CD147) correlated with severity of epithelial dysplasia. Longitudinal data identified ALDH1 and Bmi-1 as promising prognostic biomarkers linked to MT. Evidence from cell culture and animal model experiments suggested potential therapeutic applications of stem cells and their exosomes in haltering the progression of OPMD. Notably, a clinical trial incorporated stem cell markers as surrogate end points for evaluating treatment options. While findings underscore the prognostic and therapeutic relevance of stem cells in OPMD, lack of prospective designs in biomarker validation and absence of clinical trial evidence on stem cell therapies limit clinical applicability.",
+  "metadata": {
+    "pmid": "41778103",
+    "query": "oral potentially malignant disorders"
+  }
+}

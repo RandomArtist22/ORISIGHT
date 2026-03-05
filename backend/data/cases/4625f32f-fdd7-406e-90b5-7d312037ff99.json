@@ -1,0 +1,103 @@
+{
+  "case_id": "4625f32f-fdd7-406e-90b5-7d312037ff99",
+  "created_at": "2026-03-05T18:30:53.198726",
+  "symptoms": "Burning sensation with persistent white patch and restricted mouth opening",
+  "history": "Areca nut chewing daily, tobacco chewing for 10 years, occasional alcohol",
+  "image_path": "/app/backend/data/uploads/4625f32f-fdd7-406e-90b5-7d312037ff99.jpg",
+  "report": {
+    "case_id": "4625f32f-fdd7-406e-90b5-7d312037ff99",
+    "output": {
+      "diagnosis": "Oral Submucous Fibrosis",
+      "differential_diagnosis": [
+        "Leukoplakia",
+        "Erythroplakia",
+        "Oral Lichen Planus"
+      ],
+      "risk_level": "High",
+      "suggested_tests": [
+        "Complete oral examination with lesion mapping",
+        "Incisional biopsy of suspicious area",
+        "Toluidine blue / adjunctive chairside staining",
+        "Contrast-enhanced MRI/CT for extent evaluation",
+        "Cervical lymph node assessment"
+      ],
+      "treatment_plan": [
+        "Eliminate risk habits (tobacco/areca/alcohol) with cessation counseling",
+        "Symptomatic management and lesion-specific therapy",
+        "Schedule close follow-up with photographic documentation"
+      ],
+      "referral": "Urgent referral to oral oncology / head-and-neck specialist",
+      "confidence_score": "0.73"
+    },
+    "explainability": {
+      "image_caption": "Oral cavity photo with reddish mucosal region, well lit, possible patch-like lesion visible.",
+      "risk_factors": [
+        "tobacco chewing",
+        "areca nut consumption",
+        "alcohol use",
+        "burning sensation",
+        "restricted mouth opening",
+        "persistent white or red patches"
+      ],
+      "similar_cases": [
+        {
+          "case_id": "0d2c1784-dd17-4a8d-be1f-f766e712b621",
+          "diagnosis": "Oral potentially malignant disorder (OPMD)",
+          "similarity": 1.0,
+          "metadata": {
+            "source": "orisight_generated_case",
+            "diagnosis": "Oral potentially malignant disorder (OPMD)",
+            "risk_level": "High"
+          }
+        },
+        {
+          "case_id": "9cbb2b35-6616-409a-9be9-4563421be667",
+          "diagnosis": "Oral potentially malignant disorder (OPMD)",
+          "similarity": 1.0,
+          "metadata": {
+            "risk_level": "High",
+            "diagnosis": "Oral potentially malignant disorder (OPMD)",
+            "source": "orisight_generated_case"
+          }
+        },
+        {
+          "case_id": "038dbd05-44cc-4cd4-819c-d246ccf63e27",
+          "diagnosis": "Oral potentially malignant disorder (OPMD)",
+          "similarity": 1.0,
+          "metadata": {
+            "risk_level": "High",
+            "diagnosis": "Oral potentially malignant disorder (OPMD)",
+            "source": "orisight_generated_case"
+          }
+        }
+      ],
+      "retrieved_knowledge": [
+        {
+          "source": "WHO",
+          "chunk": "to women and it varies strongly by socio-economic circumstances. Tobacco, alcohol and areca nut (betel quid) use are among the leading causes of oral cancer. In North America and Europe, human papillomavirus infections are responsible for a growing percentage of oral cancers among young people. Oro-dental trauma results from injury to the teeth, mouth and oral cavity. Latest estimates show that 1 billion people are affected, with a prevalence of around 20% for children up to 12 years old. Oro-dental trauma can be caused by oral factors such as lack of alignment of teeth and environmental factors (such as unsafe playgrounds, risk-taking behaviour, road accidents and violence). Treatment is costly and lengthy and sometimes can even lead to tooth loss, resulting in complications for facial and psychological development and quality of life. Noma is a severe gangrenous disease of the mouth and the face. It mostly affects children aged 2\u20136 years suffering from malnutrition, affected by infectious disease, living in extreme poverty with poor oral hygiene or with weakened immune systems. Noma is mostly found in sub-Saharan Africa, although cases have also been reported in Latin America and Asia. Noma starts as a soft tissue lesion (a sore) of the gums. It then develops into an acute necrotizing gingivitis that progresses rapidly, destroying the soft tissues and further progressing to involve the hard tissues and skin of the face. According to latest estimates (from 1998) there are 140 000 new cases of noma annually. Without treatment, noma is fatal in 90% of cases. Survivors suffer from severe facial disfigurement, have difficulty speaking and eating, endure social stigma, and require complex surgery and rehabilitation. Where noma is detected at an early stage, its progression can be rapidly halted through basic hygiene, antibiotics and improved nutrition. Orofacial clefts, the most common of craniofacial birth defects, have a global prevalence of between 1 in 1000\u20131500 births, with wide variation in different studies and populations (2) . Genetic predisposition is a major cause. However, poor maternal nutrition, tobacco consumption, alcohol and obesity during pregnancy also play a role. In low-income settings, there is a high mortality rate in the neonatal period. If lip and palate clefts are properly treated by surgery, complete rehabilitation is possible. Most oral diseases and conditions share modifiable risk factors such as tobacco use, alcohol consumption and an unhealthy diet high in free sugars that are common to other NCDs including cardiovascular disease, cancer, chronic respiratory disease and diabetes. In addition, diabetes has been linked in a reciprocal way with the development and progression of periodontal disease. There is also a causal link between the high consumption of sugar and diabetes, obesity and dental caries. Oral diseases disproportionately affect the poor and socially disadvantaged members of society. There is a very strong and consistent association between socioeconomic status (income, occupation and educational level) and the prevalence and severity of oral diseases. This association exists from early childhood to older age and across populations in high-, middle- and low-income countries. The",
+          "score": 0.3366
+        },
+        {
+          "source": "WHO",
+          "chunk": "Most oral health conditions are largely preventable and can be treated in their early stages. Most cases are dental caries (tooth decay), periodontal diseases, tooth loss and oral cancers. Other oral conditions of public health importance are orofacial clefts, noma (severe gangrenous disease starting in the mouth mostly affecting children) and oro-dental trauma. Prevalence of the main oral diseases continues to increase globally with growing urbanization and changes in living conditions. This is primarily due to inadequate exposure to fluoride (in the water supply and oral hygiene products such as toothpaste), availability and affordability of food with high sugar content and poor access to oral health care services in the community. Marketing of food and beverages high in sugar, as well as tobacco and alcohol, have led to a growing consumption of products that contribute to oral health conditions and other NCDs. Dental caries results when plaque forms on the surface of a tooth and converts the free sugars (all sugars added to foods by the manufacturer, cook or consumer, plus sugars naturally present in honey, syrups and fruit juices) contained in foods and drinks into acids that destroy the tooth over time. A continued high intake of free sugars, inadequate exposure to fluoride and a lack of removal of plaque by toothbrushing can lead to caries, pain and sometimes tooth loss and infection. Periodontal disease affects the tissues that both surround and support the teeth. The disease is characterized by bleeding or swollen gums (gingivitis), pain and sometimes bad breath. In its more severe form, the gum can come away from the tooth and supporting bone, causing teeth to become loose and sometimes fall out. Severe periodontal diseases are estimated to affect more than 1 billion cases worldwide. The main risk factors for periodontal disease are poor oral hygiene and tobacco use. Losing teeth is generally the end point of a lifelong history of oral disease, mainly advanced dental caries and severe periodontal disease, but can also be due to trauma and other causes. The estimated global average prevalence of complete tooth loss is almost 7% among people aged 20 years or older. For people aged 60 years or older, a much higher global prevalence of 23% has been estimated. Losing teeth can be psychologically traumatic, socially damaging and functionally limiting. Oral cancer includes cancers of the lip, other parts of the mouth and the oropharynx and combined rank as the 13 th most common cancer worldwide. The global incidence of cancers of the lip and oral cavity is estimated to be 389 846 new cases and 188 438 deaths in 2022 (1). Oral cancer is more common in men and in older people, more deadly in men compared to women and it varies strongly by socio-economic circumstances. Tobacco, alcohol and areca nut (betel quid) use are among the leading causes of oral cancer. In North America and Europe, human papillomavirus infections are responsible for a growing percentage of oral cancers among young people. Oro-dental trauma results from injury",
+          "score": 0.3268
+        },
+        {
+          "source": "Dataset Metadata",
+          "chunk": "Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript. Advertisement Scientific Data volume 11 , Article number: 1298 ( 2024 ) Cite this article 3931 Accesses 3 Citations Metrics details In imaging spectroscopy, gathering oral tissue spectral data from resected samples may not accurately represent tissue signatures due to time-dependent changes, blood loss, protein degeneration, and preservation chemicals. In-vivo spectral imaging is employed to address these limitations, but it poses challenges like device dimensions, tissue accessibility, and motion artifacts, impacting data quality and reliability. Our study publishes a dataset of spectral images focusing on oral diseases, addressing these challenges. We used a state-of-the-art multispectral camera, capturing images at 270*510 pixels resolution in 16 spectral bands (460 nm to 600 nm). The dataset includes 91 participants (15 healthy and 76 diseased), with multiple images per patient, totalling 243 spectral images. The dataset encompasses three oral health conditions: Oral Submucous Fibrosis (OSMF), Leukoplakia, and Oral Squamous Cell Carcinoma (OSCC). Detailed patient history records accompany each case. This publicly available oral health multispectral dataset has the potential to advance spectroscopy diagnosis. Integrating artificial intelligence with a comprehensive spectral signature repository holds promise for accurate disease analysis. Oral cancer is a significant health challenge globally, especially in India, where it has a high incidence rate among males, as reported by the National Cancer Registry of India 1 . Risk factors include tobacco and alcohol use, betel nut chewing, infections with human papillomavirus (HPV), and poor oral hygiene 2 , 3 , 4 , 5 , 6 , 7 , 8 . Oral cancer significantly burdens individuals and society, impacting mortality, morbidity, quality of life, and emotional well-being. Treatment is often initiated based on visual suspicion, typically when the lesion has grown significantly, followed by a biopsy for confirmation. However, at this stage, the disease has usually progressed to a critical point and spread, significantly impacting survival prospects 9 , 10 . Prioritizing prevention, efforts encompass oral hygiene, tobacco cessation, and HPV vaccination. Alongside this, the significance of early detection through regular screenings cannot be overstated. This emphasis on early detection aligns with the strides in oral cancer diagnosis powered by advanced technologies like VELscope 11 , 12 and OralCDx 13 coupled with molecular biomarkers. While VELscope aids in enhanced visualization under fluorescent light, its capability to precisely differentiate between benign and malignant conditions is restricted 14 , 15 . Moreover, the suspected region often appears greenish-brown due to reduced fluorescence from its surroundings, impeding the physician\u2019s ability to obtain a clearer view 16 . OralCDx, a less utilized technique globally, serves as a non-invasive biopsy option for detecting potentially cancerous or precancerous cells. However, its diagnostic scope is limited, lacking a definitive prognosis in certain cases 17 .",
+          "score": 0.3215
+        },
+        {
+          "source": "NCBI",
+          "chunk": "disorders. 8 Children with primary hypertension are more likely than normotensive children to develop hypertension in adulthood. 9 \u2013 12 They are also more likely to develop intermediate cardiovascular outcomes, such as as increased left ventricular mass, carotid intima-media thickness (CIMT), and increased pulse wave velocity. 9 The association between intermediate outcomes in childhood and health outcomes in adulthood, however, is unclear. These risks are discussed in greater detail below in Key Question (KQ) 4 and Contextual Question (CQ) 3 ( Appendix A ). Untreated secondary hypertension can lead to similar sequelae as those of primary hypertension. In addition, untreated underlying secondary causes of hypertension can lead to serious sequelae related to their etiologies. For example, untreated renal artery stenosis, a leading cause of secondary hypertension, can lead to renal failure. The overall reported prevalence of hypertension (both primary and secondary) in children and adolescents ranges in studies from 0.54 percent to 29 percent, with most studies reporting between 3 percent to 4 percent of children having hypertension. 13 \u2013 17 These data come from observational studies from a variety of settings, including a primary care network, insurance program, health care system, and schools. Prevalence is higher in children and adolescents who are overweight and obese. Prevalence is also higher in African American and Hispanic children compared with non-Hispanic white children. One small study suggests that approximately half of children with hypertension have primary hypertension; children age 13 years or older are more likely to have primary hypertension (60%), while those under age 6 years are less likely to have primary hypertension (17%). 18 Greater detail is provided in Appendix A . The prevalence cited above may underestimate the actual prevalence for children age 13 years or older because it is based on studies conducted before the adoption of uniform definitions in 2017. The thresholds for high blood pressure with the new uniform definitions are lower than the previous thresholds, which were placed at the 95th percentile for children of a given age, height, and sex. However, the new 2017 uniform definitions result in thresholds that are slightly higher than measurements at the 95th percentile for younger adolescents of a given age and sex at lower heights. Children with family histories of hypertension are 2 to 3 times as likely to develop primary hypertension. 19 , 20 Children with specific chronic conditions are also at higher risk of developing hypertension. Obesity is a common comorbid condition with hypertension in children, with prevalence rates estimated between 3.8 percent and 20.2 percent in children with obesity (body mass index greater [BMI] greater than 95th percentile for age and sex). 21 \u2013 24 Children with a BMI at the 95th to 98th percentile are 2 times as likely to develop hypertension as their normal-weight peers. 25 Rates of hypertension increase in relationship to increasing BMI. 21 \u2013 24 , 26 Children with sleep-disordered breathing (including snoring, sleep fragmentation, and obstructive sleep apnea) are approximately 3 times as likely to develop hypertension, and a",
+          "score": 0.3117
+        }
+      ],
+      "image_url": "http://127.0.0.1:8001/static/uploads/4625f32f-fdd7-406e-90b5-7d312037ff99.jpg",
+      "heatmap_url": "http://127.0.0.1:8001/static/heatmaps/4625f32f-fdd7-406e-90b5-7d312037ff99_heatmap.png",
+      "disclaimer": "Hackathon MVP only. Not a medical diagnostic device."
+    },
+    "doctor_mode_enabled": true
+  },
+  "doctor_review": {}
+}
